@@ -1,0 +1,133 @@
+:root {
+    --primary-color: #93C5FD;
+    --basic-colore: #F59E0B;
+    --white-color: #F9FAFB;
+}
+
+body {
+    font-family: "Neucha", cursive;
+    margin: 0px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-resize {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50vw;
+}
+
+.tbplaceholder {
+    position: start;
+}
+
+textarea {
+    width: 90%;
+    display: block;
+    border: 1px solid;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: 15vh;
+    padding: 1rem;
+    font-family: inherit;
+    font-size: larger;
+}
+
+.btn-style {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--primary-color);
+    border-bottom-style: solid;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: inherit;
+    font-size: large;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    border: 1px transparent;
+    border-radius: 0.7rem;
+    cursor: pointer;
+}
+
+#output {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border: 1px solid black;
+    height: 15vh;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid;
+    border-radius: 1rem;
+    font-size: larger;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    font-size: xx-large;
+    font-weight: 500;
+}
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    box-sizing: border-box;
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 1rem;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 1rem 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    text-align: center;
+    text-align: center;
+    font-size: large;
+}
+
+.footer .link {
+    color: var(--white-color);
+    font-size: medium;
+}
+
+.footer .social-link {
+    font-size: larger;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+.footer .footer-header {
+    font-weight: bolder;
+    font-size: large;
+    color: var(--white-color);
+    padding-top: 1rem;
+}
+
+.head-line {
+    text-align: center;
+}
